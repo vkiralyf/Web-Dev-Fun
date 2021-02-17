@@ -8,6 +8,7 @@ body {
   flex-wrap: wrap;
   width: 420px;
   height: 420px;
+  border: solid black;
 }
 .grid div {
   width: 15px;
@@ -27,8 +28,9 @@ body {
   border-radius: 7.5px;
 }
 .pacman {
-  background-color: yellow;
+  background-color: rgb(255, 123, 0);
   border-radius: 7.5px;
+  border: none;
 }
-.ghost-lair {
-}
+/* .ghost-lair {
+} */
